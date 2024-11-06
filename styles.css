@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow-y: auto; /* Esto permitirá hacer scroll en la página */
+    overflow-y: auto;
 }
 
 .contenedor {
