@@ -27,7 +27,8 @@ function iniciarContador() {
             } else {
                 alert("Respuesta inválida. Debes poner 'Si' o 'No'.");
             }
-        } while (presencia !== "Si" && presencia !== "si" && presencia !== "S" && presencia !== "s" && presencia !== "No" && presencia !== "no" && presencia !== "N" && presencia !== "n");
+        } while (presencia !== "Si" && presencia
+            !== "si" && presencia !== "S" && presencia !== "s" && presencia !== "No" && presencia !== "no" && presencia !== "N" && presencia !== "n");
     };
 
     for (let i = 0; i < duracionDelCurso; i++) {
